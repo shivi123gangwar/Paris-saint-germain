@@ -1,0 +1,238 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Comfortaa', cursive, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 30px 0;
+    overflow: hidden;
+}
+/******************************************Header*******************************/
+.navbar-brand img{
+height: 60px;
+width: 60px;
+}
+.navbar-caption a{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 5px;
+    font-weight: 700;
+    font-family:'Comfortaa', cursive;
+}
+.navbar-caption a:hover{
+    color: #B0B0B0;
+    text-decoration: none;
+}
+.bg-dark{
+    background: #232323 !important;
+}
+.navbar-nav{
+    margin-right: 5% !important;
+    text-align: center;
+    margin-top: -8px !important;
+}
+.navbar-nav>li{
+    padding: 10px;
+}
+.navbar-nav .nav-item:hover a{
+    color: #B0B0B0 !important;
+}
+.navbar-nav>li>a{
+color: #fff !important;
+font-size: 20px;
+font-weight: 400;
+}
+.navbar-nav>li:hover .dropdown-menu{
+display: block;
+}
+.dropdown-menu{
+    background: #333 !important;
+}
+.dropdown-menu .dropdown-item{
+    color: #fff !important;
+}
+.buy-btn{
+    margin-right: 0px !important;
+}
+.btn-default{
+    background: transparent !important;
+    border: 1px solid #fff !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.btn-default:hover{
+    background: #fff !important;
+    color: #B0B0B0;
+}
+/***************************************End of header****************************/
+/********************************************Section1*****************************/
+
+.sec-img{
+    position: relative;
+}
+
+.sec-img img{
+    height: 100vh;
+}
+
+.sec-img:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/*
+.sec-img .img-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+}
+*/
+
+.sec-img .img-caption{
+    position: absolute;
+    top: calc(50% - 190px);
+    left: calc(50%-300px);
+    color: white;
+    z-index: 1;
+    width: 100%;
+ 
+}
+.img-caption h1{
+    font-size: 64px;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.img-caption h2{
+    font-size: 64px;
+    font-weight: 300 !important;
+    letter-spacing: 2px;
+}
+.img-caption h2 span{
+    color: #FE525B !important;
+    font-weight: 700!important;
+}
+.btn-danger{
+    background: #FE525B !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.btn-danger:hover{
+    background-color: #FE0613 !important;
+}
+/****************************************End of section1********************************/
+/*******************************************New Arrival*************************************/
+.new-arrivals h1{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.new-arrivals .container-fluid{
+    padding: 40px !important;
+}
+.new-arrivals h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #333;
+}
+.new-arrivals img{
+    display:block;
+    width: 100%;
+    position: relative;
+    z-index: 2s;
+} 
+.grayscale { 
+    filter: grayscale(100%); 
+}
+.padding{
+    padding: 10px !important;
+}
+.arrival-box{
+    position: relative;
+     overflow: hidden;
+}
+.arrival-box:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.new-arrival-overlay{
+    background: #AB94BA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+.new-arrival-overlay:hover{
+    opacity: 0.5;
+}
+.arrival-caption{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    z-index: 100 !important;
+}
+.arrival-caption h1{
+    color: #44f7b3;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.arrival-caption .price{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -25px !important;
+    font-weight: 400;
+    margin-bottom: 8px !important;
+}
+/********************************************End Of New Arrival******************************/
+/********************************************About*****************************************************/
+.icons {
+    display: inline-block;
+    width: 50px !important;
+    height:  50px !important;
+    font-size: 50px;
+}
+/*********************************************End Of About************************************************/
